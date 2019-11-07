@@ -1,0 +1,10 @@
+//@import '~bootstrap/scss/functions';
+//@import '~bootstrap/scss/variables';
+
+.search {
+  background: var(--yellow);
+  padding: 10px;
+  :global(.btn) {
+    text-transform: uppercase;
+  }
+}
